@@ -8,8 +8,7 @@ import android.widget.Toast;
 
 public class AlarmBroadcastReceiver extends BroadcastReceiver{
 	
-	
-	@Override
+	  @Override
 	  public void onReceive(Context context, Intent intent) {
 	    Toast.makeText(context, "Don't panik but your time is up!!!!.",
 	        Toast.LENGTH_LONG).show();
@@ -17,5 +16,8 @@ public class AlarmBroadcastReceiver extends BroadcastReceiver{
 	    Vibrator vibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
 	    vibrator.vibrate(2000);
 	  }
+	  
+
+	  
 
 }

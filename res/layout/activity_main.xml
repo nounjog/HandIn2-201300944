@@ -30,4 +30,12 @@
         android:onClick="setAlarm"
         android:text="Button" />
 
+    <ProgressBar
+        android:id="@+id/prog"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="97dp" />
+
 </RelativeLayout>
